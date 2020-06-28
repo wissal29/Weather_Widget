@@ -1,0 +1,39 @@
+.row {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 4%;
+  }
+  .row:last-child {
+    margin-bottom: 0;
+  }
+  
+  .widget {
+    background-color: #44b2e2;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    color: #fff;
+    padding: 2%;
+  }
+  .widget .pull-left {
+    float: left;
+  }
+  .widget .pull-right {
+    float: right;
+  }
+  .city-name {
+    letter-spacing: 1px;
+    line-height: 1.111em;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .ico-current {
+    font-size: 80px;
+    width: 1.1em;
+    padding-top: 3rem;
+  }
+  .temp-current {
+    font-size: 60px;
+    margin: 0 10%;
+  }
+  
+  
